@@ -1,4 +1,3 @@
-@"
 yfinance
 pandas
 numpy
@@ -21,11 +20,9 @@ langchain-community
 langchain-groq
 groq
 flask
+flask-jwt-extended
+bcrypt
 streamlit
 plotly
 python-dotenv
 requests
-flask-login
-flask-jwt-extended
-bcrypt
-"@ | Set-Content requirements.txt
