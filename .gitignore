@@ -1,0 +1,12 @@
+@"
+.env
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.pkl
+*.joblib
+data/raw/
+data/processed/
+data/embeddings/
+"@ | Set-Content .gitignore
