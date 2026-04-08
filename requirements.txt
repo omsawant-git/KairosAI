@@ -25,4 +25,7 @@ streamlit
 plotly
 python-dotenv
 requests
+flask-login
+flask-jwt-extended
+bcrypt
 "@ | Set-Content requirements.txt
